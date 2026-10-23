@@ -362,3 +362,50 @@ body {
     padding: 20px;
     font-size: 0.9rem;
 }
+
+
+
+
+/*SECCION DEPAGO (ORDENAR TODO CON SAAS)*/
+
+.contenedor-pago {
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor-pago h1 {
+    color: #5c3926;
+}
+
+.contenedor-pago label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.contenedor-pago input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.contenedor-pago button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5c3926;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contenedor-pago a {
+    display: block;
+    margin-top: 20px;
+    color: #5c3926;
+}
