@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf9f6;
+    color: #333;
+}
+
+
+.cabecera-principal {
+    background-color: rgb(226, 198, 111);
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.texto-logo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #2b2b2b;
+}
+
+.menu-navegacion ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu-navegacion ul li a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.menu-navegacion ul li a:hover {
+    color: #fff;
+}
+
+#icono-carrito {
+    width: 22px;
+    height: 22px;
+}
+
+.boton-carrito {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.seccion-inicio {
+    background-color: #2c221e;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-texto h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.hero-texto p {
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton-principal {
+    background-color: #e2c66f;
+    color: #2b2b2b;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.boton-principal:hover {
+    background-color: #d4b554;
+}
+
+
+.tarjeta-mas-vendido {
+    background: #ffffff;
+    color: #333;
+    width: 280px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.etiqueta-estrella {
+    background-color: #e2c66f;
+    color: #2b2b2b;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tarjeta-mas-vendido img {
+    width: 100%;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.tarjeta-mas-vendido h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.precio-destacado {
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.enlace-detalle {
+    display: block;
+    text-align: center;
+    background-color: #e2c66f;
+    color: #2b2b2b;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.enlace-detalle:hover {
+    background-color: #d4b554;
+}
+
+
+.seccion-catalogo {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.8rem;
+    color: #2b2b2b;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tarjeta-cafe {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.tarjeta-cafe:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-cafe img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-cafe h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2b2b2b;
+}
+
+.tarjeta-cafe p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.boton-comprar {
+    background-color: #e2c66f;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.boton-comprar:hover {
+    background-color: #d4b554;
+}
+
+
+.seccion-detalles {
+    background-color: #f1ede4;
+    padding: 60px 20px;
+}
+
+.detalle-contenedor-interno {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    align-items: center;
+}
+
+.detalle-imagen {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.detalle-imagen img {
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.detalle-info h3 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    color: #2b2b2b;
+}
+
+.subtitulo-detalle {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.precio-detalle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-bottom: 15px;
+}
+
+.descripcion-larga {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.envio-info {
+    font-size: 0.85rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+.seccion-contacto {
+    background-color: #faf9f6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.subtitulo-contacto {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #e0e0e0;
+}
+
+.campo-formulario {
+    margin-bottom: 20px;
+}
+
+.campo-formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton-enviar {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.boton-enviar:hover {
+    background-color: #444;
+}
+
+
+.pie-pagina {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}

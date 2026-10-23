@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - LUNA CAFÉ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="cabecera-principal">
+        <div class="contenedor-logo"><span class="texto-logo">LUNA CAFÉ</span></div>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="detalles.html">Detalles</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><button class="boton-carrito" title="Ver carrito">
+                        <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="carrito"
+                            id="icono-carrito">
+                    </button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contenido-principal">
+        <section class="seccion-contacto" id="contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <p class="subtitulo-contacto">¿Tienes dudas sobre nuestros orígenes o envíos? Escríbenos.</p>
+            <form class="formulario-contacto">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" name="nombre" placeholder="Tu nombre" required="" type="text" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="email">Correo electrónico:</label>
+                    <input id="email" name="email" placeholder="tucorreo@ejemplo.com" required="" type="email" />
+                </div>
+                <div class="campo-formulario">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required=""
+                        rows="4"></textarea>
+                </div>
+                <button class="boton-enviar" type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <p>&copy; 2026 LUNA CAFÉ - Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
